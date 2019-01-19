@@ -1,0 +1,16 @@
+
+import React, { Component } from 'react';
+import { View, Text, Button } from 'react-native';
+
+export class camera extends Component {
+  render() {
+    return (
+      <View>
+        <Text>This is the Settings screen</Text>
+        <Button onPress={() => this.props.navigation.navigate('Home')} title="home"/>
+      </View>
+    )
+  }
+};
+
+export default camera;
