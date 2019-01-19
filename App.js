@@ -6,15 +6,24 @@ import {
     createStackNavigator,
     createAppContainer
   } from 'react-navigation';
+
+import home from './screens/home';
 import camera from './screens/camera';
-import homes from './screens/home';
+import calculator from './screens/calcu';
+import contact from './screens/contact';
 
 const RootStack = createStackNavigator({
   Home: {
-    screen: homes
+    screen: home
   },
-  Next: {
+  Camera: {
     screen: camera
+  },
+  Calcu: {
+    screen: calculator
+  },
+  Contact: {
+    screen: contact
   }
 },
 {

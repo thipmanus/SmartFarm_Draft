@@ -2,7 +2,7 @@ import React , {Component} from 'react';
 import { StyleSheet, View ,Text} from 'react-native';
 import { Container,Picker,Form,Button, Header, Title, Content, Footer, FooterTab, Icon,StyleProvider,Text as NBText } from 'native-base';
 
-export class home extends Component {
+export class contact extends Component {
   render() {
     return (
       
@@ -46,7 +46,7 @@ export class home extends Component {
   }
 }
 
-export default home
+export default contact
 
 const styles = StyleSheet.create({
   tainer: { 

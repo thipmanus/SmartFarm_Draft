@@ -8,7 +8,7 @@ class Home extends React.Component {
           <Container> 
           <Content>
           <Form>
-            <Picker
+            <Picker 
               note
               mode="dropdown"
               selectedValue={this.state.selected}
