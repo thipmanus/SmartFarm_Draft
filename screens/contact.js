@@ -34,8 +34,8 @@ export class contact extends Component {
             <Icon name='ios-apps' />
             <NBText>คำนวณ</NBText>
             </Button>
-            <Button vertical
-            onPress={() => this.props.navigation.navigate('Contact')}>
+            <Button active
+            onPress={() => this.props.navigation.navigate('Contact')}  >
             <Icon name='ios-contact' />
             <NBText>ติดต่อ</NBText>
             </Button>

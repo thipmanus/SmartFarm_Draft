@@ -19,18 +19,18 @@ export class calcu extends Component {
         </Content>
         <Footer>
          <FooterTab>
-          <Button vertical
-            onPress={() => this.props.navigation.navigate('Home')}>
+          <Button 
+            onPress={() => this.props.navigation.navigate('Home')} >
             <Icon name='ios-home' />
             <NBText>หน้าหลัก</NBText>
             </Button>
             <Button vertical
-            onPress={() => this.props.navigation.navigate('Camera')}>
+            onPress={() => this.props.navigation.navigate('Camera')} >
             <Icon name='ios-camera' />
             <NBText>กล้อง</NBText>
             </Button>
-            <Button vertical
-            onPress={() => this.props.navigation.navigate('Calcu')}>
+            <Button active
+            onPress={() => this.props.navigation.navigate('Calcu')} >
             <Icon name='ios-apps' />
             <NBText>คำนวณ</NBText>
             </Button>

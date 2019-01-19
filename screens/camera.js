@@ -24,8 +24,8 @@ export class camera extends Component {
             <Icon name='ios-home' />
             <NBText>หน้าหลัก</NBText>
             </Button>
-            <Button vertical
-            onPress={() => this.props.navigation.navigate('Camera')}>
+            <Button active
+            onPress={() => this.props.navigation.navigate('Camera')}  >
             <Icon name='ios-camera' />
             <NBText>กล้อง</NBText>
             </Button>

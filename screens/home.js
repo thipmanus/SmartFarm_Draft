@@ -19,8 +19,8 @@ export class home extends Component {
         </Content>
         <Footer>
          <FooterTab>
-          <Button vertical
-            onPress={() => this.props.navigation.navigate('Home')}>
+          <Button active
+            onPress={() => this.props.navigation.navigate('Home')}  >
             <Icon name='ios-home' />
             <NBText>หน้าหลัก</NBText>
             </Button>
