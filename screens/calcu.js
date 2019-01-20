@@ -29,7 +29,7 @@ export class calcu extends Component {
             </Button>
             <Button active
             onPress={() => this.props.navigation.navigate('Calcu')} >
-            <Icon name='ios-apps' />
+            <Icon name='ios-calculator' />
             <NBText>คำนวณ</NBText>
             </Button>
             <Button vertical

@@ -1,7 +1,6 @@
 import React , {Component} from 'react';
 import { StyleSheet,Button, View ,Text} from 'react-native';
 import { Container,Picker,Form, Header, Title, Content, Footer, FooterTab, Icon,StyleProvider,Text as NBText } from 'native-base';
-//import { createAppContainer, createStackNavigator, StackActions, NavigationActions } from 'react-navigation';
 import {
     createStackNavigator,
     createAppContainer
@@ -27,10 +26,26 @@ const RootStack = createStackNavigator({
   }
 },
 {
-  initialRouteName: 'Home'
+  initialRouteName: 'Home',
+  defaultNavigationOptions: {
+    headerTintColor: '#fff',
+    headerStyle: {
+      backgroundColor: "#3F51B5",
+    },
+    headerTitleStyle : {
+      textAlign: 'center',
+      alignSelf:'center'
+    },
+  },
 }
 );
 
 const Apps = createAppContainer(RootStack);
 
-export default Apps;
+export default class App extends Component {
+  render() {
+    return (
+        <Apps />
+    );
+  }
+}

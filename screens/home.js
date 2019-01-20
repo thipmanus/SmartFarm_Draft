@@ -29,7 +29,7 @@ export class home extends Component {
             </Button>
             <Button vertical
             onPress={() => this.props.navigation.navigate('Calcu')}>
-            <Icon name='ios-apps' />
+            <Icon name='ios-calculator' />
             <NBText>คำนวณ</NBText>
             </Button>
             <Button vertical
