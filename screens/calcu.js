@@ -2,18 +2,16 @@ import React , {Component} from 'react';
 import { StyleSheet, View ,Text} from 'react-native';
 import { Container,Picker,Form,Button, Header, Title, Content, Footer, FooterTab, Icon,StyleProvider,Text as NBText } from 'native-base';
 
+
 export class calcu extends Component {
+  static navigationOptions = {
+    title: 'คำนวณสูตรปุ๋ย',
+  };
   render() {
     return (
       
         <Container>
-        <Header style={styles.tainer}>
-          <Text>
-          <Title>
-         วิเคราะห์อาการขาดแร่ธาตุของพืช
-         </Title>
-         </Text>
-        </Header>
+        
         <Content>
 
         </Content>
@@ -46,14 +44,4 @@ export class calcu extends Component {
   }
 }
 
-export default calcu
-
-const styles = StyleSheet.create({
-  tainer: { 
-      paddingTop: 0,
-      //flexDirection: 'column',
-      //justifyContent: 'flex-end',
-      alignItems: 'center',
-      
-  }
-});
+export default calcu ;

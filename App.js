@@ -33,10 +33,4 @@ const RootStack = createStackNavigator({
 
 const Apps = createAppContainer(RootStack);
 
-export default class App extends Component {
-  render() {
-    return (
-      <Apps />
-    );
-  }
-}
+export default Apps;

@@ -2,18 +2,15 @@ import React , {Component} from 'react';
 import { StyleSheet, View ,Text} from 'react-native';
 import { Container,Picker,Form,Button, Header, Title, Content, Footer, FooterTab, Icon,StyleProvider,Text as NBText } from 'native-base';
 
+
 export class camera extends Component {
+  static navigationOptions = {
+    title: 'กล้อง',
+  };
   render() {
     return (
       
         <Container>
-        <Header style={styles.tainer}>
-          <Text>
-          <Title>
-         วิเคราะห์อาการขาดแร่ธาตุของพืช
-         </Title>
-         </Text>
-        </Header>
         <Content>
 
         </Content>
@@ -46,14 +43,4 @@ export class camera extends Component {
   }
 }
 
-export default camera
-
-const styles = StyleSheet.create({
-  tainer: { 
-      paddingTop: 0,
-      //flexDirection: 'column',
-      //justifyContent: 'flex-end',
-      alignItems: 'center',
-      
-  }
-});
+export default camera ;
