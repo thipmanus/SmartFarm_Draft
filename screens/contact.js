@@ -16,17 +16,17 @@ export class contact extends Component {
         </Content>
         <Footer>
          <FooterTab>
-          <Button vertical
+          <Button 
             onPress={() => this.props.navigation.navigate('Home')}>
             <Icon name='ios-home' />
             <NBText>หน้าหลัก</NBText>
             </Button>
-            <Button vertical
+            <Button 
             onPress={() => this.props.navigation.navigate('Camera')}>
             <Icon name='ios-camera' />
             <NBText>กล้อง</NBText>
             </Button>
-            <Button vertical
+            <Button 
             onPress={() => this.props.navigation.navigate('Calcu')}>
             <Icon name='ios-calculator' />
             <NBText>คำนวณ</NBText>

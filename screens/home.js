@@ -21,17 +21,17 @@ export class home extends Component {
             <Icon name='ios-home' />
             <NBText>หน้าหลัก</NBText>
             </Button>
-            <Button vertical
+            <Button 
             onPress={() => this.props.navigation.navigate('Camera')}>
             <Icon name='ios-camera' />
             <NBText>กล้อง</NBText>
             </Button>
-            <Button vertical
+            <Button 
             onPress={() => this.props.navigation.navigate('Calcu')}>
             <Icon name='ios-calculator' />
             <NBText>คำนวณ</NBText>
             </Button>
-            <Button vertical
+            <Button
             onPress={() => this.props.navigation.navigate('Contact')}>
             <Icon name='ios-contact' />
             <NBText>ติดต่อ</NBText>
